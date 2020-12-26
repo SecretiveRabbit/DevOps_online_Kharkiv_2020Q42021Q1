@@ -127,6 +127,8 @@ step 19: Merge two new branches into develop using git merge command.
 
 ![task 19](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2019.png)
 
+
+
 ***
 
 step 20,21: Merge develop into master.
@@ -173,6 +175,9 @@ step 25: Add in repository your trainers as collaborators.
 ***
 
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
+
+***
+
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
 
