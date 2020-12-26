@@ -175,3 +175,6 @@ step 25: Add in repository your trainers as collaborators.
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
+
+In my view, DevOps is a combination of such specializations as Testing, Development and Automation.
+DevOps is a developing approach which intends it make the process of development more quick, to make the project literately as a continuously growing organism, if it can expressed so.
