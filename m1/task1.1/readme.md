@@ -174,12 +174,19 @@ step 25: Add in repository your trainers as collaborators.
 
 ***
 
-![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
+step 26,27: Add task1.1_GIT.txtto your local repo in then Push it in GitHubrepo. Make file readme.md  in folder task1.1and describe results of your work with Git.
+![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2026%2C27.png)
 
 ***
 
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
 ![task 22](https://github.com/SecretiveRabbit/DevOps_online_Kharkiv_2020Q42021Q1/blob/main/m1/task1.1/screenshots/step%2022.png)
+
+***
+
+step 28,29: Describe in your own words what DevOps is. Try to use not more 50 words.Insert your text about DevOps in readme.md
+
+***
 
 In my view, DevOps is a combination of such specializations as Testing, Development and Automation.
 DevOps is a developing approach which intends it make the process of development more quick, to make the project literately as a continuously growing organism, if it can expressed so.
