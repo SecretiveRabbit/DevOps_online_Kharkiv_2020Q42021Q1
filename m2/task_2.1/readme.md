@@ -22,7 +22,7 @@ PART 2. WORK WITH VIRTUALBOX
 
 1.First run VirtualBox and Virtual Machine (VM).
 1.1 Get acquainted with the structure of the user manual VirtualBox.
-![task 1.1](/screenshots/step1.1.png)
+![task 1.1](screenshots/step1.1.png)
 
 ***
 
@@ -30,8 +30,8 @@ PART 2. WORK WITH VIRTUALBOX
 
 ***
 
-![task 1.2](/screenshots/step1.2.png)
-![task 1.2](/screenshots/step1.png)
+![task 1.2](screenshots/step1.2.png)
+![task 1.2](screenshots/step1.png)
 ![task 1.1](screenshots/step1.3.png)
 
 ***
@@ -111,9 +111,8 @@ Create a group of two VM: VM1, VM2 and learn the functions related to groups.
 ***
 
 PART 3. WORK WITH VAGRANT 
-1.Download the required version of Vagrant. 
-2.Run the powershell. Create a folder "student name" (in English). In this example, create a folder vagrant_test. Next, go to the folder.
-3-8. Create your own Vagrant box.
+
+1-8. Download the required version of Vagrant. Run the powershell. Create your own Vagrant box.
 
 ***
 
