@@ -1,11 +1,10 @@
-stepanov
-step 1:Install GIT on your workstation
-<<<<<<< HEAD
+Alexander Stepanov, Task 2.1
 
-=======
 PART 1. HYPERVISORS
+
 1.What are the most popular hypervisors for infrastructure virtualization?
-there are three the most popular programs for virualization: Microsoft Hyper-V, Oracle VirtualBox and VMWare Workstation.
+
+There are three the most popular programs for virualization: Microsoft Hyper-V, Oracle VirtualBox and VMWare Workstation.
 
 2.Briefly describe the main differences of the most popular hypervisors.
 
@@ -22,185 +21,103 @@ It is said that VMware is better to deploy servers for fulltime. This program is
 PART 2. WORK WITH VIRTUALBOX
 
 1.First run VirtualBox and Virtual Machine (VM).
+1.1 Get acquainted with the structure of the user manual VirtualBox.
+![task 1.1](/screenshots/step1.1.png)
 
 ***
 
-![task 2,3,4](/screenshots/step%204.png)
+1.2 From  the  official  VirtualBox  site  [2]  download  the  latest  stable  version  of VirtualBox  according  to  the  host  operating  system  (OS)  installed  on  the  student's workplace. Download the latest stable version of Ubuntu Desktop or Ubuntu Server from the official site.
 
 ***
 
-step 5: Form  repository structure.
+![task 1.2](/screenshots/step1.2.png)
+![task 1.2](/screenshots/step1.png)
+![task 1.1](screenshots/step1.3.png)
 
 ***
 
-![task 5](screenshots/step%205.png)
+1.3-1.7 Create VM1 and install Ubuntu using the instructions [1, chapter 1.8]. Set machine name as "host machine name"_"student last name".
+Get acquainted with the possibilities of VM1 control -start, stop, reboot, save state, use Host key and keyboard shortcuts, mouse capture, etc.
+Clone an existing VM1 by creating a VM2.
+Create a group of two VM: VM1, VM2 and learn the functions related to groups.
 
 ***
 
-step 6: Clone repo to your workstation.
-
-***
-
-![task 6](screenshots/step%206.png)
-
-***
-
-step 7,8: Open git console in root directory of your project.
-
-***
-
-![task 7,8](screenshots/step%207%2C8.png)
-
-***
-
-step 9:Create empty readme.txt file.
-
-***
-
-![task 9](screenshots/step%209.png)
-
-***
-
-step 10: Make init commit.
-
-***
-
-![task 10](screenshots/step%2010.png)
-
-***
-
-step 11: Create develop branch and checkout on it.
-
-***
-
-![task 11](screenshots/step%2011.png)
-
-***
-
-step 12: Create index.html empty file. Commit.
-
-***
-
-![task 12](screenshots/step%204.png)
-
-***
-
-step 13: Create branch with name “images”. Checkout on it. Add images folder with some images inside it. Commit.
-
-***
-
-![task 13](screenshots/step%2013.png)
-![task 13 2](screenshots/step%2013%202.png)
-![task 13 3](screenshots/step%2013%203.png)
-
-***
-
-step 14: Change your index.html. Add images source inside it. Commit.
-
-***
-
-![task 14](screenshots/step%2014.png)
-
-***
-
-step 15: Go back to develop branch.
-
-***
-
-![task 15](screenshots/step%2015.png)
-
-***
-
-step 16: Create branch with name“styles”.Checkouton it.Add styles folder with styles source insideit.Commit.
-
-***
-
-![task 16](screenshots/step%2016.png)
-![task 16 2](screenshots/step%2013.png)
-![task 16 3](screenshots/step%2016%203.png)
-
-***
-
-step 17: Change your index.html. Commit.
-![task 17](screenshots/step%20%2017.png)
-![task 17 2](screenshots/step%2017%202.png)
-
-***
-
-step 18: Go to develop branch.
-
-***
-
-![task 18](screenshots/step%2018.png)
-
-***
-
-step 19: Merge two new branches into develop using git merge command. 
-
-***
-
-![task 19](screenshots/step%2019.png)
-
+![task 3-5](screenshots/step1.5.png)
+![task 5](screenshots/step1.31.png)
+![task 5](screenshots/step1.51.png)
+![task 6](screenshots/step1.6.png)
 
 
 ***
 
-step 20,21: Merge develop into master.
+1.7 For VM1, changing its state, take several different snapshots, forming a branched tree of snapshots.
 
 ***
 
-![task 20,21](screenshots/step%2021.png)
+![task 7](screenshots/step1.7.png)
 
 ***
 
-step 22: Try to inspect your repository with git log command.
+1.8 Export VM1. Save the *.ova file to disk. Import VM from *.ova file.
 
 ***
 
-![task 22](screenshots/step%2022.png)
-![task 22 2](screenshots/step%2022%202.png)
-![task 22 3](screenshots/step%2022%203.png)
-![task 22 4](screenshots/step%2022%204.png)
+![task 8](screenshots/step1.81.png)
+![task 8](screenshots/step1.82.png)
+![task 8](screenshots/step1.83.png)
+![task 8](screenshots/step1.84.png)
 
 ***
 
-step 23: Push all your changes with allyour branches to origin.
+2.Configuration of virtual machines
+2.1 Explore VM configuration options (general settings, system settings, display, storage, audio, network, etc.).
+2.2 Configure the USB to connect the USB ports of the host machine to the VM.
 
 ***
 
-![task 23](screenshots/step%2023.png)
+![task 2.1,2.2](screenshots/step2.2.png)
+![task 2.1,2.2](screenshots/step2.21.png)
+
 
 ***
 
-step 24: Execute command “git reflog“ and save it content somewhere (not in repository) with filename “task1.1_GIT.txt”.
+2.3 Configure a shared folder to exchange data between the virtual machine and the host
 
 ***
 
-![task 24](screenshots/step%2024.png)
+![task 2.3](screenshots/step2.3.png)
 
 ***
 
-step 25: Add in repository your trainers as collaborators.
+3.Work with CLI through VBoxManage.
+3.1. Run the cmd.exe command line.
 
 ***
 
-![task 25](screenshots/step%2025.PNG)
+![task 3.1](screenshots/step3.1,3.2.png)
+![task 3.1](screenshots/step3.1,3.21.png)
+![task 3.1](screenshots/step3.1,3.22.png)
+![task 3.1](screenshots/step3.1,3.23.png)
+![task 3.1](screenshots/step3.1,3.24.png)
+![task 3.1](screenshots/step3.1,3.25.png)
+![task 3.1](screenshots/step3.1,3.26.png)
+![task 3.1](screenshots/step3.1,3.27.png)
+![task 3.1](screenshots/step3.1,3.28.png)
+![task 3.1](screenshots/step3.1,3.29.png)
+![task 3.1](screenshots/step3.1,3.210.png)
+![task 3.1](screenshots/step3.1,3.211.png)
 
 ***
 
-step 26,27: Add task1.1_GIT.txtto your local repo in then Push it in GitHubrepo. Make file readme.md  in folder task1.1and describe results of your work with Git.
-![task 22](screenshots/step%2026%2C27.png)
+PART 3. WORK WITH VAGRANT 
+1.Download the required version of Vagrant. 
+2.Run the powershell. Create a folder "student name" (in English). In this example, create a folder vagrant_test. Next, go to the folder.
+3-8. Create your own Vagrant box.
 
 ***
 
-![task 22](screenshots/step%2022.png)
-![task 22](screenshots/step%2022.png)
-
-***
-
-step 28,29: Describe in your own words what DevOps is. Try to use not more 50 words.Insert your text about DevOps in readme.md
-
-***
-
-In my view, DevOps is a combination of such specializations as Testing, Development and Automation.
-DevOps is a developing approach which intends it make the process of development more quick, to make the project literately as a continuously growing organism, if it can expressed so.
+![task 4.1](screenshots/part3step81.png)
+![task 4.1](screenshots/part3step82.png)
+![task 4.1](screenshots/part3step83.png)
+![task 4.1](screenshots/part3step84.png)
