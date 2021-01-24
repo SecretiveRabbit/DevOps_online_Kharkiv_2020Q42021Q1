@@ -218,6 +218,16 @@ For example:
 
 Thus, these numbers can be in sum to set a combination of rights. 
 
+Umask is a mechanism that leaves you without some access rights for the current session. Umask has defaoul value 0002 for users and 0022 for root. This value is substracted from user's manage access right value. You can see the example below:
+
+| <img src = "screenshots/15.png"> |
+|:--:|
+| <b> Img. 15.1 - Influence of umask.</b> |
+
+| <img src = "screenshots/15_1.png"> |
+|:--:|
+| <b> Img. 15.1 - Influence of umask.</b> |
+
 ***
 
 16) Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes.
