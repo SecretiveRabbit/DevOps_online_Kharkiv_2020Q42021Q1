@@ -326,11 +326,11 @@ Part 2
 
 1) Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
-| <img src = "screenshots/part2_1.png"> |
+| <img src = "screenshots/part2_1.PNG"> |
 |:--:|
 | Picture 18.1 - Connecting via ssh in powershell. |
 
-| <img src = "screenshots/part2_1_1.png"> |
+| <img src = "screenshots/part2_1_1.PNG"> |
 |:--:|
 | Picture 18.2 - Connecting via ssh in MobaXTerm. |
 
@@ -340,7 +340,7 @@ Part 2
 
 It's recommended to set additional security settings of the ssh connection. To do it - edit the file /etc/ssh/sshd_config. Set the second version of this protocol, and set the authentication only with rsa-key:
 
-| <img src = "screenshots/part2_2.png"> |
+| <img src = "screenshots/part2_2.PNG"> |
 |:--:|
 | Picture 19.1 - Editing the file /etc/ssh/sshd_config. |
 
@@ -429,7 +429,8 @@ And let's connect to the server through the port 4000 to our server. Type "local
 5) Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
 
 The connection via ssh:
-| <img src = "screenshots/part2_5.png"> |
+
+| <img src = "screenshots/part2_5.PNG"> |
 |:--:|
 | Picture 22.1 - Using "tcpdump" command. |
 
