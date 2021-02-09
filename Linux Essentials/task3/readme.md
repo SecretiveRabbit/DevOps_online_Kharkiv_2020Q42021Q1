@@ -340,7 +340,7 @@ Part 2
 
 It's recommended to set additional security settings of the ssh connection. To do it - edit the file /etc/ssh/sshd_config. Set the second version of this protocol, and set the authentication only with rsa-key:
 
-| <img src = "screenshots/part2_2.PNG"> |
+| <img src = "screenshots/part2_2.PNG.png"> |
 |:--:|
 | Picture 19.1 - Editing the file /etc/ssh/sshd_config. |
 
