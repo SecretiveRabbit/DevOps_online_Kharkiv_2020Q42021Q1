@@ -1,6 +1,6 @@
 EPAM University Programs  
 DevOps external course  
-Module - NetworkingFundamentals  
+Module - Networking Fundamentals  
 TASK 4.2  
 Завдання 1. Необхідно змоделювати корпоративну мережу організації, яка містить 2  будинки  по  2  поверхи  в  кожному.  Горизонтальна  підсистема  поверху складається з однієї робочої групи по 5 комп'ютерів.Провести аналіз працездатності мережі і її трафіку.
 
