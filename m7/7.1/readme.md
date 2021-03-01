@@ -29,31 +29,6 @@ In conditions we check if the variable is empty (-n) or absent (-z). Having used
 |:--:|
 | Picture 4 - Testing work. |
 
-
-
-#!/bin/bash
-if [ -n "$1" ]
-then
-while [ -n "$1" ]
-do
-case "$1" in
---all) cat /etc/hosts 
-break ;;
---target) ss 
-break ;;
-*) echo "The possible keys:
---all key displays the IP addresses and symbolic names of all hosts in the current subnet 
---target key displays a list of open system TCP ports" ;;
-esac
-done
-elif [ -z "$1" ]
-then
-echo "The possible keys:
---all key displays the IP addresses and symbolic names of all hosts in the current subnet 
---target key displays a list of open system TCP ports"
-fi
-
-
 B. Using Apache log example create a script to answer the following questions:
 1. From which ip were the most requests? 
 2. What is the most requested page? 
