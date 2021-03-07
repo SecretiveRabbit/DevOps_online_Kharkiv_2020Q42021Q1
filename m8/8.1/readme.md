@@ -1,14 +1,14 @@
 Jenkins Task  
 Create some templates using lection materials about Jenkins according your final task. More detailed: choose the content part for your final task (simple web page, web application, etc) and programming language (java, js, python, etc), and type of delivery/deployment mechanism.  
 
-We need to install java 8 first before installing jenkins. We can do it in sych a way:
+We need to install java 8 first before installing jenkins. We can do it in such a way:
 
 | <img src = "screenshots/1.png"> |
 |:--:|
 | Picture 1 - Checking java on our server. |
 
 Of course we cheked the service java service after installation to make sure it works.  
-After that we enter the browser on our host machine to the address 192.168.1.11:8080. Here 192.168.1.11 is the address of our virtual machine and 8080 is the port of jenkins application. We'll need to sign up to jenkins by typing some information about us, including e-mail but it won't be used in practice.
+After that we enter the browser on our host machine to the address 192.168.1.11:8080. Here 192.168.1.11 is the address of our virtual machine and 8080 is the port of Jenkins application. We'll need to sign up to Jenkins by typing some information about us, including e-mail but it won't be used in practice.
 Also we'll need to install jenkins on uur VM. The installator will offer to install the most popular plugiins or to do it in our own, but we'll choose the first way. Extra plugins won't take lots of place and we'll probobly need them and future and we'll save our time on installation.
 After that we can create our first job. 
 
