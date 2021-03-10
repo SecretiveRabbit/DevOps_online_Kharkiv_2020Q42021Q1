@@ -26,7 +26,7 @@ The contant of the files will be the following:
 
 | <img src = "screenshots/10.png"> |
 |:--:|
-| Picture 6 - The content of index.html. |
+| Picture 5 - The content of index.html. |
 
 The contant of file requirments.ru is the only string "Flask==0.10.1".
 
@@ -34,23 +34,23 @@ Now we can build docker container to run the site.
 
 | <img src = "screenshots/3.png"> |
 |:--:|
-| Picture 7 - The process of building of our container. |
+| Picture 6 - The process of building of our container. |
 
 
 | <img src = "screenshots/4.png"> |
 |:--:|
-| Picture 8 - The process of building of our container. |
+| Picture 7 - The process of building of our container. |
 
 After building we can use the command docker run to lauch the container. After launching we can see random gifs from the list.
 
 | <img src = "screenshots/6.png"> |
 |:--:|
-| Picture 10 - Checking if the flask-app works. |
+| Picture 8 - Checking if the flask-app works. |
 
 
 | <img src = "screenshots/7.png"> |
 |:--:|
-| Picture 11- Checking if the flask-app works. |
+| Picture 9 - Checking if the flask-app works. |
 
 
 
